@@ -42,53 +42,53 @@
     Interview:
 
     1. What foods do you like?
-    $clientLikes
+      $clientLikes
 
     2. What foods do you dislike?
-    $clientDislikes
+      $clientDislikes
 
     3. Do you have any food allergies or dietary preferences?
-    $clientAllergies
+      $clientAllergies
 
     4. Do you have any medical conditions/injuries/issues?
-    $clientMeds
+      $clientMeds
 
     5. How often do you train? Days/times a week
-    $clientTrains
+      $clientTrains
 
     6. Do you taken any supplements? If so, which ones?
-    $clientSupps
+      $clientSupps
 
     7. Are you an enhanced athlete?
-    $clientNatty
+      $clientNatty
 
     8. What is your gym experience? 
-    <2 years = low
-    2-4 years = med
-    5+ years = hi
-    $clientExp
+    <2 years = clientLow
+    2-4 years = clientMed
+    5+ years = clientHi
+    Answer: $clientExp
 
     9. What is your cardio regimen?
-    $clientCardio
+      $clientCardio
 
     10. Do you have time restrictions on meals? Shift work etc...
-    $clientRestricts
+      $clientRestricts
 
     11. Do any of your meals need to be shakes due to these limits?
-    $clientShakes
+      $clientShakes
 
     12. What time will you be working out?
-    $clientWorkouts
+      $clientWorkouts
 
     13. What is your overall goal?
-    $clientGoals			
+      $clientGoals			
     "
 							
 ?>
 
 <?php							
 
-  $to = "scarlet@ironelitetraining.com";
+  $to = "roman@ironelitetraining.com";
 
   $headers = "From: $email_from \r\n";
 
