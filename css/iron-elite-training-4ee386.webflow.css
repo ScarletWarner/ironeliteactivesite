@@ -3709,7 +3709,7 @@ figcaption {
   margin-left: auto;
 }
 
-@media screen and (min-width: 1280px) {
+/*@media screen and (min-width: 1280px) {
   h2 {
     font-size: 50px;
     line-height: 50px;
@@ -3737,7 +3737,7 @@ figcaption {
   .paragraph.client {
     font-size: 24px;
     line-height: 35px;
-  }
+  }*/
 
   .coachroman {
     width: auto;
